@@ -1,0 +1,11 @@
+{
+    "database":
+    {
+        "database": "hoxaify",
+        "username": "my-db-user",
+        "password": "root",
+        "storage": ":memory:",
+        "dialect": "sqlite",
+        "logging": false
+    }
+}

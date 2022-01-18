@@ -1,0 +1,66 @@
+{
+  "name": "express-ws",
+  "version": "1.0.0",
+  "description": "tdd with express",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development nodemon index",
+    "test": " cross-env NODE_ENV=test jest --watch",
+    "lint": "eslint ."
+  },
+  "author": "ahmed sayed",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "i18next": "^20.6.1",
+    "i18next-fs-backend": "^1.1.1",
+    "i18next-http-middleware": "^3.1.4",
+    "nodemailer": "^6.7.1",
+    "sequelize": "^6.6.5",
+    "sqlite3": "^4.2.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "jest": "^27.0.6",
+    "nodemailer-stub": "^1.2.2",
+    "nodemon": "^2.0.12",
+    "supertest": "^6.1.4"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 2018
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:prettier/recommended"
+    ],
+    "plugins": [
+      "prettier"
+    ],
+    "env": {
+      "node": true,
+      "es6": true,
+      "jest": true
+    },
+    "rules": {
+      "semi": "warn",
+      "quotes": [
+        "warn",
+        "single"
+      ],
+      "eqeqeq": "warn",
+      "prettier/prettier": "warn"
+    }
+  },
+  "prettier": {
+    "singleQuote": true,
+    "printWidth": 120,
+    "semi": true
+  }
+}

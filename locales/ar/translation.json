@@ -1,0 +1,10 @@
+{
+    "usernameCannotBeNull" :"يجب ادخال اسم المستخدم",
+    "emailCannotBeNull" :"يجب ادخال الايميل",
+    "passwordCannotBeNull" :"يجب ادخال الرقم السري",
+    "usernameLength" :"اسم المستخدم لايقل عن 4 خانات ولا يزيد عن 32 خانة",
+    "passwordLength" :"الرقم السري لا يقل عن 6 خانات",
+    "notvalidEmail" :"الايميل غير صحيح",
+    "emailInUse" :"الايميل مستخدم من قبل",
+    "passwordPattern" :"الرقم السري يجب ان يحتوي على حرف كبير وحرف صغير ورقم"
+}
